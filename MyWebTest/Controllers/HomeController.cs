@@ -26,5 +26,10 @@ namespace MyWebTest.Controllers
 
             return View();
         }
+
+        [HttpPost]
+        public void MyPost()
+        {
+        }
     }
 }
