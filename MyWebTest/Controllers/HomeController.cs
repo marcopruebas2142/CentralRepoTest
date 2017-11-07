@@ -31,5 +31,11 @@ namespace MyWebTest.Controllers
         public void MyPost()
         {
         }
+
+        [HttpPost]
+        public ActionResult Index()
+        {
+            return new EmptyResult();
+        }
     }
 }
